@@ -5,24 +5,17 @@
 \usepackage[scale=0.8]{geometry}
 \usepackage{color}
 
-\definecolor{orange}{rgb}{1,0.5,0}
-\definecolor{light-gray}{gray}{0.5}
-
 \firstname{Ivan}
 \familyname{Chernetsky}
 \address{48, Plehanova str. Apt 5}{Minsk, Belarus 220095}
-\mobile{+375 29 1115496}
+\mobile{+375~(29)~1115496}
 \email{ivan.chernetsky@gmail.com}
 \quote{Software Engineer Looking for Challenging Position}
+\photo[64pt]{picture}
 
 \begin{document}
-\maketitle
 
-\section{Interests}
-\cvlistdoubleitem{Computer vision}{Machine learning}
-\cvlistdoubleitem{Image processing}{Web development}
-\cvlistdoubleitem{Embedded systems}{Mobile development}
-\cvlistdoubleitem{Functional programming}{Distributed systems}
+\maketitle
 
 \section{Education}
 \cventry{2005--2010}{Engineer's degree}{BSUIR}{Minsk}{}{Graduated from \emph{Belarusian State University of Informatics and Radioelectronics} in \emph{2010}. The professional qualification received is \emph{mathematician--software engineer}.}
@@ -32,38 +25,15 @@
 \cvline{description}{The goal of the diploma project was to develop an application for human detection and pose estimation using \emph{pictorial structures framework}. I based my work on the paper ``Pictorial structures revisited: people detection and articulated pose estimation'' by M. Andriluka, S. Roth, and B. Schiele presented at CVPR'09.}
 \cvline{tools}{\emph{Linux, C/C++, Python, Google Protocol Buffers, CMake, OpenCV}}
 
-\section{On the Web}
-\cvlistitem{\url{http://github.com/ichernetsky}}
-\cvlistitem{\url{http://chernetsky.info}}
-
-\section{Languages}
-\cvlanguage{English}{Intermediate}{once did a presentation to customers; reading and writing technical documentation; voice, e-mail and chat communication}
-\cvlanguage{Russian}{Native}{}
-
-\section{Skills}
-\cvcomputer{}{\textcolor{orange}{active}}{}{\textcolor{light-gray}{inactive/familiar with}}
-\cvcomputer{Languages}{C, Python, OCaml, Common Lisp, JavaScript}{}{C++, Java, Clojure, Erlang, Scheme, Haskell, assembly language}
-\cvcomputer{Operating systems}{Linux (now: Sabayon; in the past: Debian, Gentoo, CentOS)}{}{Windows, FreeBSD, Solaris}
-\cvcomputer{Databases}{PostgreSQL, SQLite}{}{MySQL, NoSQL databases}
-\cvcomputer{Computer vision}{OpenCV}{}{}
-\cvcomputer{GUI}{GTK+}{}{Qt, Cairo, Clutter}
-\cvcomputer{Web development}{Django, jQuery, AppEngine, AWS}{}{}
-\cvcomputer{Web servers}{nginx}{}{Apache}
-\cvcomputer{Mobile development}{iPhone, Android}{}{}
-\cvcomputer{Revision control}{Git}{}{Subversion, CVS, Mercurial}
-\cvcomputer{Collaboration}{Trac, ReviewBoard, Bugzilla}{}{}
-\cvcomputer{Build systems}{GNU make, CMake}{}{Buildroot, Autotools}
-\cvcomputer{Typesetting}{\LaTeX}{}{}
-
 \section{Teaching}
-\cvline{09.2010--\\present}{My friend and I conduct a course on programming languages and technologies. Some topics are Introduction to Unix and its Environment, Basic Data Structures and Algorithms, Parallel Programming, Network Programming, Python, Functional Programming using OCaml, Advanced Data Structures, Common Lisp. The lecture notes could be found at \url{https://github.com/downloads/ichernetsky/informatics-rescue-notes/notes-20110228.pdf}}
+\cvline{09.2010--\\present}{My friend and I conduct a course on programming languages and technologies. Some topics are Introduction to Unix and its Environment, Basic Data Structures and Algorithms, Parallel Programming, Network Programming, Python, Functional Programming using OCaml, Advanced Data Structures, Common Lisp. The lecture notes can be found at \url{http://goo.gl/MeLE3}}
 
 \section{Experience}
-\cventry{08.2011--\\present}{Mobile developer of InviteBox.com}{Y-NODE Software}{Minsk}{}{InviteBox is a widget for swift referral promotions over social networks, email, and mobile phones. InviteBox allows your users to share your product or service with their existing social graph. By signing in with a Gmail, Facebook, Twitter or other social networking account, users can “tell a friend” to earn instant rewards and, in the process, send you high-quality traffic. I am responsible for developing widgets for iOS and Android platforms, that can be embedded in your application with a couple of lines of code.}
-\cvline{tools}{\emph{Ojbective C, iOS, Java, Android, Python, Django}}
-
-\cventry{08.2010--11.2011}{Senior Software Engineer}{EPAM Systems}{Minsk}{}{The main goal of this project was to simplify—in terms of running time and a number of queries—an existing tool that pulled Merger \& Acquisition deals from an editorial database, made some calculations, and pushed a new pile of data into distribution databases. Several times I was responsible for optimizing queries on huge tables that contained millions and trillions of rows, for instance, a query was running for 40 minutes, I made it finish in several seconds.}
+\cventry{08.2010--01.2012}{Senior Software Engineer}{EPAM Systems}{Minsk}{}{The main goal of the project I was working on, was to simplify — in terms of running time and a number of queries — an existing tool that pulled Merger \& Acquisition deals from an editorial database, made some calculations, and pushed a new pile of data into distribution databases. I was coding new functions for financial calculations in C and was optimizing queries on huge tables.}
 \cvline{tools}{\emph{Solaris, C, Oracle, GNU make, shell}}
+
+\cventry{08.2010--12.2010}{Mobile developer of InviteBox.com}{InviteBox}{Minsk}{}{InviteBox is a widget for swift referral promotions over social networks, email, and mobile phones. InviteBox allows your users to share your product or service with their existing social graph. By signing in with a Gmail, Facebook, Twitter or other social networking account, users can “tell a friend” to earn instant rewards and, in the process, send you high-quality traffic. It was a part-time job. I was responsible for developing widgets for iOS and Android platforms, that could be embedded in an application with a couple of lines of code.}
+\cvline{tools}{\emph{Ojbective C, iOS, Java, Android, Python, Django}}
 
 \cventry{05.2009--05.2010}{Key developer of Dooster.net}{Y-NODE Software}{Minsk}{}{Web-based project management tool. The distinctive feature of this tool is ability to control and use the most of its functionality via email. Implementation of new features, bug-fixing, support of legacy code.}
 \cvline{tools}{\emph{Linux, Python, Django, jQuery, Amazon Web Services, PostgreSQL, memchached, git}}
@@ -79,5 +49,31 @@
 
 \cventry{03.2008--05.2008}{Developer of Y-NODE.com}{Y-NODE Software}{Minsk}{}{Official company site. Full development of www.y-node.com, network programming, development of Jabber/XMPP client.}
 \cvline{tools}{\emph{Linux, Django, Python, jQuery, PyXMPP, Subversion}}
+
+\section{On the Web}
+\cvlistitem{\url{http://github.com/ichernetsky}}
+\cvlistitem{\url{http://about.me/ichernetsky}}
+
+\section{Languages}
+\cvline{\textbf{English}}{Upper-Intermediate}
+\cvline{\textbf{Russian}}{Native}
+
+\section{Tools used at work}
+\cvcomputer{\textbf{Languages}}{C, Python, JavaScript}{\textbf{Operating Systems}}{Linux, Solaris}
+\cvcomputer{\textbf{Databases}}{PostgreSQL, SQLite}{\textbf{Web Development}}{Django, jQuery, AWS}
+\cvcomputer{\textbf{GUI}}{GTK+}{\textbf{Web Servers}}{nginx}
+\cvcomputer{\textbf{Computer Vision}}{OpenCV}{\textbf{Mobile Development}}{iOS, Android}
+\cvcomputer{\textbf{Revision Control}}{git, Subversion, CVS}{\textbf{Build Systems}}{GNU make}
+
+\section{Tools used in personal/educational projects}
+\cvcomputer{\textbf{Languages}}{Java, OCaml, Common Lisp, C++, Clojure, Erlang, Scheme, Haskell, assembly language}{\textbf{Web Development}}{AppEngine}
+\cvcomputer{\textbf{Databases}}{MySQL, NoSQL}{\textbf{Build Systems}}{CMake, Buildroot, Autotools}
+\cvcomputer{\textbf{GUI}}{Qt, Cairo, Clutter}{\textbf{Revision Control}}{Mercurial}
+
+\section{Interests}
+\cvlistdoubleitem{Functional programming}{Machine learning}
+\cvlistdoubleitem{Image processing}{Web development}
+\cvlistdoubleitem{Embedded systems}{Mobile development}
+\cvlistdoubleitem{Computer vision}{Distributed systems}
 
 \end{document}
